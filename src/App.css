@@ -1,0 +1,129 @@
+#root {
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+.h-screen{
+  height: 100vh;
+}
+.read-the-docs {
+  color: #888;
+}
+
+.h-100vh{
+  height: 100vh;
+}
+.bg-color{
+  background-color: #d9d4c5;
+
+}
+.bg-image{
+  background-image: url('/img/laptop-1855x850.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.border-reduis{
+  border-radius: 50px;
+
+}
+.h-90vh{
+  height: 90vh;
+}
+.bg-color-1{
+  background-color: #b0aca6!important;
+}
+.bg-color-2{
+  background-color: #ccc5bc!important;
+}
+.bg-color-3{
+  background-color: #bcb4aa!important;
+}
+.secrion-3-font{
+  font-size: 125px;
+}
+.secrion-4-font{
+  font-size: 40px;
+}
+.bg-image-1{
+  background-image: url('/1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact-us .description{
+  /* font-size: 20px; */
+  width: 100%;
+}
+.contact-us .tagline{
+  width: 100%;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.contact-us .tagline-1{
+  width: 100%;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: right;
+}
+.contact-us .lastline{
+  width: 100%;
+}
+.form-floatings label{
+  font-size: 13px;
+  padding-left: 4px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+.form-floatings label span{
+  color: red;
+  padding-left: 5px;
+}
+
+.form-floatings input{
+  border: 0px;
+  background: transparent;
+  border-bottom: 1px solid #acabab;
+  border-radius: 0px;
+  padding-left:7px;
+}
+
+.form-floatings input::placeholder{
+  /* font-size: 14px; */
+  
+
+}
+.form-floatings input:focus{
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #acabab;
+}
+
+@media (max-width:768px) {
+  .bg-image{
+    background-image: url('/img/tablet-750x750.jpg');
+  }
+  
+}
+@media (max-width:480px) {
+  .bg-image{
+    background-image: url('/img/mobile-400x770 copy.jpg');
+    align-items: start !important;
+    padding-top: 70px;
+  }
+  .navbar-container-padding{
+    text-align: center!important;
+    width: 100%!important;
+  }
+  .navbar-container-padding span:nth-child(1){
+    display: grid;
+  }
+}
